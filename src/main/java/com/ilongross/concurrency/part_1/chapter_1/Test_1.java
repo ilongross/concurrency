@@ -1,4 +1,4 @@
-package com.ilongross.concurrency.chapter_1;
+package com.ilongross.concurrency.part_1.chapter_1;
 
 public class Test_1 {
 

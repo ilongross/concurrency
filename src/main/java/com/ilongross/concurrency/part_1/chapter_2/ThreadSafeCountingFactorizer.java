@@ -1,4 +1,4 @@
-package com.ilongross.concurrency.chapter_2;
+package com.ilongross.concurrency.part_1.chapter_2;
 
 import net.jcip.annotations.ThreadSafe;
 

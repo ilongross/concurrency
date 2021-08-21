@@ -1,6 +1,6 @@
-package com.ilongross.concurrency.chapter_4;
+package com.ilongross.concurrency.part_1.chapter_4;
 
-import com.ilongross.concurrency.chapter_3.Animal;
+import com.ilongross.concurrency.part_1.chapter_3.Animal;
 
 public class TestCh4 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.ilongross.concurrency.chapter_3;
+package com.ilongross.concurrency.part_1.chapter_3;
 
 // Такой способ не рекомендуется использовать
 // из-за многопоточности ready может быть выполнена раньшею и результат number будет равен 0;
@@ -17,14 +17,5 @@ public class NoVisibility {
             System.out.println(number);
         }
     }
-
-    public static void main(String[] args) {
-
-            new ReaderThread().start();
-            number = 42;
-            ready = true;
-
-    }
-
 
 }
