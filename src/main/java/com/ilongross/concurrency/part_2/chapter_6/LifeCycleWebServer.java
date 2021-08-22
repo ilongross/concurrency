@@ -35,7 +35,7 @@ public class LifeCycleWebServer {
             } catch (RejectedExecutionException e) {
                 e.printStackTrace();
             }
-            execService.shutdown();
+            stop();
         }
     }
 
